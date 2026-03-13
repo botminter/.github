@@ -17,7 +17,7 @@
   </defs>
 
   <!-- Background -->
-  <rect width="580" height="450" rx="10" fill="#f6f8fa"/>
+  <rect width="580" height="450" rx="10" fill="none"/>
 
   <!-- Tree panel -->
   <rect x="16" y="12" width="548" height="426" rx="8" fill="#ffffff" stroke="#d1d9e0" stroke-width="1"/>
