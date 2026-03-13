@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320">
+  <defs>
+    <style>
+      .board-bg { fill: #f6f8fa; rx: 8; }
+      .col-bg { fill: #ffffff; rx: 6; stroke: #d1d9e0; stroke-width: 1; }
+      .col-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; fill: #1f2328; }
+      .col-count { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; fill: #656d76; }
+      .card { fill: #ffffff; rx: 6; stroke: #d1d9e0; stroke-width: 1; }
+      .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 600; fill: #1f2328; }
+      .card-meta { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 10px; fill: #656d76; }
+      .label { rx: 10; }
+      .label-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 9px; font-weight: 500; }
+      .label-triage { fill: #ddf4ff; }
+      .label-triage-text { fill: #0969da; }
+      .label-progress { fill: #fff8c5; }
+      .label-progress-text { fill: #9a6700; }
+      .label-review { fill: #fbefff; }
+      .label-review-text { fill: #8250df; }
+      .label-done { fill: #dafbe1; }
+      .label-done-text { fill: #1a7f37; }
+      .label-role { fill: #f6f8fa; }
+      .label-role-text { fill: #656d76; }
+      .dot-open { fill: #1a7f37; }
+      .dot-closed { fill: #8250df; }
+    </style>
+  </defs>
+
+  <!-- Board background -->
+  <rect class="board-bg" x="0" y="0" width="720" height="320"/>
+
+  <!-- Column: Triage -->
+  <rect class="col-bg" x="12" y="12" width="168" height="296"/>
+  <text class="col-title" x="24" y="34">Triage</text>
+  <text class="col-count" x="64" y="34">2</text>
+
+  <!-- Card 1 -->
+  <rect class="card" x="20" y="48" width="152" height="68"/>
+  <circle class="dot-open" cx="30" cy="62" r="4"/>
+  <text class="card-title" x="38" y="66">Add rate limiting</text>
+  <text class="card-meta" x="30" y="80">#51</text>
+  <rect class="label label-triage" x="30" y="90" width="72" height="16"/>
+  <text class="label-text label-triage-text" x="38" y="101">status/po:triage</text>
+
+  <!-- Card 2 -->
+  <rect class="card" x="20" y="124" width="152" height="68"/>
+  <circle class="dot-open" cx="30" cy="138" r="4"/>
+  <text class="card-title" x="38" y="142">Fix login redirect</text>
+  <text class="card-meta" x="30" y="156">#53</text>
+  <rect class="label label-triage" x="30" y="166" width="72" height="16"/>
+  <text class="label-text label-triage-text" x="38" y="177">status/po:triage</text>
+
+  <!-- Column: In Progress -->
+  <rect class="col-bg" x="192" y="12" width="168" height="296"/>
+  <text class="col-title" x="204" y="34">In Progress</text>
+  <text class="col-count" x="270" y="34">2</text>
+
+  <!-- Card 3 -->
+  <rect class="card" x="200" y="48" width="152" height="82"/>
+  <circle class="dot-open" cx="210" cy="62" r="4"/>
+  <text class="card-title" x="218" y="66">User authentication</text>
+  <text class="card-meta" x="210" y="80">#42</text>
+  <rect class="label label-progress" x="210" y="88" width="84" height="16"/>
+  <text class="label-text label-progress-text" x="216" y="99">status/dev:coding</text>
+  <rect class="label label-role" x="298" y="88" width="44" height="16"/>
+  <text class="label-text label-role-text" x="305" y="99">dev-01</text>
+
+  <!-- Card 4 -->
+  <rect class="card" x="200" y="138" width="152" height="82"/>
+  <circle class="dot-open" cx="210" cy="152" r="4"/>
+  <text class="card-title" x="218" y="156">API docs update</text>
+  <text class="card-meta" x="210" y="170">#48</text>
+  <rect class="label label-progress" x="210" y="178" width="96" height="16"/>
+  <text class="label-text label-progress-text" x="216" y="189">status/arch:design</text>
+  <rect class="label label-role" x="310" y="178" width="32" height="16"/>
+  <text class="label-text label-role-text" x="315" y="189">arch</text>
+
+  <!-- Column: Review -->
+  <rect class="col-bg" x="372" y="12" width="168" height="296"/>
+  <text class="col-title" x="384" y="34">Review</text>
+  <text class="col-count" x="427" y="34">1</text>
+
+  <!-- Card 5 -->
+  <rect class="card" x="380" y="48" width="152" height="82"/>
+  <circle class="dot-open" cx="390" cy="62" r="4"/>
+  <text class="card-title" x="398" y="66">Search endpoint</text>
+  <text class="card-meta" x="390" y="80">#39</text>
+  <rect class="label label-review" x="390" y="88" width="84" height="16"/>
+  <text class="label-text label-review-text" x="396" y="99">status/qe:testing</text>
+  <rect class="label label-role" x="478" y="88" width="44" height="16"/>
+  <text class="label-text label-role-text" x="485" y="99">qe-01</text>
+
+  <!-- Column: Done -->
+  <rect class="col-bg" x="552" y="12" width="156" height="296"/>
+  <text class="col-title" x="564" y="34">Done</text>
+  <text class="col-count" x="597" y="34">2</text>
+
+  <!-- Card 6 -->
+  <rect class="card" x="560" y="48" width="140" height="68"/>
+  <circle class="dot-closed" cx="570" cy="62" r="4"/>
+  <text class="card-title" x="578" y="66">DB migrations</text>
+  <text class="card-meta" x="570" y="80">#35 · closed</text>
+  <rect class="label label-done" x="570" y="90" width="52" height="16"/>
+  <text class="label-text label-done-text" x="578" y="101">merged</text>
+
+  <!-- Card 7 -->
+  <rect class="card" x="560" y="124" width="140" height="68"/>
+  <circle class="dot-closed" cx="570" cy="138" r="4"/>
+  <text class="card-title" x="578" y="142">CI pipeline</text>
+  <text class="card-meta" x="570" y="156">#31 · closed</text>
+  <rect class="label label-done" x="570" y="166" width="52" height="16"/>
+  <text class="label-text label-done-text" x="578" y="177">merged</text>
+</svg>
