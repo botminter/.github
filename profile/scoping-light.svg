@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 580 450" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <style>
+      .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    </style>
+    <g id="folder-sm">
+      <path d="M0 3 C0 1.8 0.8 1.4 1.4 1.4 L5 1.4 L6.5 0 L13 0 C14 0 14.5 1 14.5 2 L14.5 10 C14.5 11 14 11.5 13 11.5 L1.4 11.5 C0.8 11.5 0 11 0 10 Z" fill="#f5d9a8"/>
+      <path d="M0 4.5 C0 3.2 0.8 2.8 1.4 2.8 L13 2.8 C14 2.8 14.5 3.2 14.5 4.5 L14.5 10 C14.5 11 14 11.5 13 11.5 L1.4 11.5 C0.8 11.5 0 11 0 10 Z" fill="#f0c878"/>
+    </g>
+    <g id="file-icon">
+      <rect x="1" y="0" width="11" height="14" rx="1.5" fill="none" stroke="#8b949e" stroke-width="1"/>
+      <line x1="4" y1="4" x2="10" y2="4" stroke="#8b949e" stroke-width="0.8"/>
+      <line x1="4" y1="7" x2="10" y2="7" stroke="#8b949e" stroke-width="0.8"/>
+      <line x1="4" y1="10" x2="8" y2="10" stroke="#8b949e" stroke-width="0.8"/>
+    </g>
+  </defs>
+
+  <!-- Background -->
+  <rect width="580" height="450" rx="10" fill="#f6f8fa"/>
+
+  <!-- Tree panel -->
+  <rect x="16" y="12" width="548" height="426" rx="8" fill="#ffffff" stroke="#d1d9e0" stroke-width="1"/>
+
+  <!-- Row height: 32px. Columns: name | scope badge | visible to -->
+
+  <!-- Row 1: my-team/ -->
+  <g transform="translate(32, 24)">
+    <use href="#folder-sm" x="0" y="4"/>
+    <text x="20" y="15" class="mono" font-size="13" font-weight="600" fill="#1f2328">my-team/</text>
+  </g>
+  <line x1="16" y1="48" x2="564" y2="48" stroke="#eef1f5" stroke-width="1"/>
+
+  <!-- Row 2: knowledge/ (team) -->
+  <rect x="17" y="49" width="3" height="31" fill="#bc4c00"/>
+  <rect x="20" y="49" width="544" height="31" fill="#fff1e5" opacity="0.4"/>
+  <g transform="translate(52, 55)">
+    <use href="#folder-sm" x="0" y="4"/>
+    <text x="20" y="15" class="mono" font-size="12" fill="#1f2328">knowledge/</text>
+  </g>
+  <rect x="466" y="56" width="64" height="18" rx="9" fill="#fff1e5" stroke="#bc4c00" stroke-width="0.75"/>
+  <text x="498" y="69" text-anchor="middle" class="sans" font-size="10" font-weight="600" fill="#bc4c00">Team</text>
+  <line x1="16" y1="80" x2="564" y2="80" stroke="#eef1f5" stroke-width="1"/>
+
+  <!-- Row 3: use-pnpm.md -->
+  <rect x="17" y="81" width="3" height="31" fill="#bc4c00"/>
+  <rect x="20" y="81" width="544" height="31" fill="#fff1e5" opacity="0.2"/>
+  <g transform="translate(72, 87)">
+    <use href="#file-icon" x="0" y="2"/>
+    <text x="18" y="15" class="mono" font-size="11" fill="#656d76">use-pnpm.md</text>
+  </g>
+  <line x1="16" y1="112" x2="564" y2="112" stroke="#eef1f5" stroke-width="1"/>
+
+  <!-- Row 3b: invariants/ (team) -->
+  <rect x="17" y="113" width="3" height="31" fill="#bc4c00"/>
+  <rect x="20" y="113" width="544" height="31" fill="#fff1e5" opacity="0.4"/>
+  <g transform="translate(52, 119)">
+    <use href="#folder-sm" x="0" y="4"/>
+    <text x="20" y="15" class="mono" font-size="12" fill="#1f2328">invariants/</text>
+  </g>
+  <line x1="16" y1="144" x2="564" y2="144" stroke="#eef1f5" stroke-width="1"/>
+
+  <!-- Row 4: projects/backend/ -->
+  <g transform="translate(52, 150)">
+    <use href="#folder-sm" x="0" y="4"/>
+    <text x="20" y="15" class="mono" font-size="12" fill="#1f2328">projects/backend/</text>
+  </g>
+  <line x1="16" y1="176" x2="564" y2="176" stroke="#eef1f5" stroke-width="1"/>
+
+  <!-- Row 5: knowledge/ (project) -->
+  <rect x="17" y="177" width="3" height="31" fill="#1a7f37"/>
+  <rect x="20" y="177" width="544" height="31" fill="#dafbe1" opacity="0.4"/>
+  <g transform="translate(72, 183)">
+    <use href="#folder-sm" x="0" y="4"/>
+    <text x="20" y="15" class="mono" font-size="12" fill="#1f2328">knowledge/</text>
+  </g>
+  <rect x="460" y="184" width="76" height="18" rx="9" fill="#dafbe1" stroke="#1a7f37" stroke-width="0.75"/>
+  <text x="498" y="197" text-anchor="middle" class="sans" font-size="10" font-weight="600" fill="#1a7f37">Project</text>
+  <line x1="16" y1="208" x2="564" y2="208" stroke="#eef1f5" stroke-width="1"/>
+
+  <!-- Row 6: db-migration-rules.md -->
+  <rect x="17" y="209" width="3" height="31" fill="#1a7f37"/>
+  <rect x="20" y="209" width="544" height="31" fill="#dafbe1" opacity="0.2"/>
+  <g transform="translate(92, 215)">
+    <use href="#file-icon" x="0" y="2"/>
+    <text x="18" y="15" class="mono" font-size="11" fill="#656d76">db-migration-rules.md</text>
+  </g>
+  <line x1="16" y1="240" x2="564" y2="240" stroke="#eef1f5" stroke-width="1"/>
+
+  <!-- Row 7: team/dev-01/ -->
+  <g transform="translate(52, 246)">
+    <use href="#folder-sm" x="0" y="4"/>
+    <text x="20" y="15" class="mono" font-size="12" fill="#1f2328">team/dev-01/</text>
+  </g>
+  <line x1="16" y1="272" x2="564" y2="272" stroke="#eef1f5" stroke-width="1"/>
+
+  <!-- Row 8: knowledge/ (member) -->
+  <rect x="17" y="273" width="3" height="31" fill="#8250df"/>
+  <rect x="20" y="273" width="544" height="31" fill="#fbefff" opacity="0.4"/>
+  <g transform="translate(72, 279)">
+    <use href="#folder-sm" x="0" y="4"/>
+    <text x="20" y="15" class="mono" font-size="12" fill="#1f2328">knowledge/</text>
+  </g>
+  <rect x="458" y="280" width="80" height="18" rx="9" fill="#fbefff" stroke="#8250df" stroke-width="0.75"/>
+  <text x="498" y="293" text-anchor="middle" class="sans" font-size="10" font-weight="600" fill="#8250df">Member</text>
+  <line x1="16" y1="304" x2="564" y2="304" stroke="#eef1f5" stroke-width="1"/>
+
+  <!-- Row 8b: invariants/ (member) -->
+  <rect x="17" y="305" width="3" height="31" fill="#8250df"/>
+  <rect x="20" y="305" width="544" height="31" fill="#fbefff" opacity="0.4"/>
+  <g transform="translate(72, 311)">
+    <use href="#folder-sm" x="0" y="4"/>
+    <text x="20" y="15" class="mono" font-size="12" fill="#1f2328">invariants/</text>
+  </g>
+  <line x1="16" y1="336" x2="564" y2="336" stroke="#eef1f5" stroke-width="1"/>
+
+  <!-- Row 9: projects/backend/ (under member) -->
+  <g transform="translate(72, 342)">
+    <use href="#folder-sm" x="0" y="4"/>
+    <text x="20" y="15" class="mono" font-size="12" fill="#1f2328">projects/backend/</text>
+  </g>
+  <line x1="16" y1="368" x2="564" y2="368" stroke="#eef1f5" stroke-width="1"/>
+
+  <!-- Row 10: knowledge/ (member+project) -->
+  <rect x="17" y="369" width="3" height="31" fill="#0969da"/>
+  <rect x="20" y="369" width="544" height="31" fill="#ddf4ff" opacity="0.4"/>
+  <g transform="translate(92, 375)">
+    <use href="#folder-sm" x="0" y="4"/>
+    <text x="20" y="15" class="mono" font-size="12" fill="#1f2328">knowledge/</text>
+  </g>
+  <rect x="444" y="376" width="108" height="18" rx="9" fill="#ddf4ff" stroke="#0969da" stroke-width="0.75"/>
+  <text x="498" y="389" text-anchor="middle" class="sans" font-size="10" font-weight="600" fill="#0969da">Member + Project</text>
+  <line x1="16" y1="400" x2="564" y2="400" stroke="#eef1f5" stroke-width="1"/>
+
+  <!-- Row 11: backend-quirks.md -->
+  <rect x="17" y="401" width="3" height="31" fill="#0969da"/>
+  <rect x="20" y="401" width="544" height="31" fill="#ddf4ff" opacity="0.2"/>
+  <g transform="translate(112, 407)">
+    <use href="#file-icon" x="0" y="2"/>
+    <text x="18" y="15" class="mono" font-size="11" fill="#656d76">backend-quirks.md</text>
+  </g>
+</svg>

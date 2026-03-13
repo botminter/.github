@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 720 520" preserveAspectRatio="xMidYMid meet" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <!-- Shadow filter -->
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="0" dy="1" stdDeviation="3" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+    <!-- Button shadow -->
+    <filter id="btnShadow" x="-5%" y="-10%" width="110%" height="130%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#000" flood-opacity="0.1"/>
+    </filter>
+    <!-- Clip for rounded corners on entire card -->
+    <clipPath id="cardClip">
+      <rect x="20" y="10" width="680" height="500" rx="12"/>
+    </clipPath>
+    <!-- BotMinter logo avatar -->
+    <symbol id="bm-logo" viewBox="0 0 1774.9 1404.5">
+      <defs>
+        <clipPath clipPathUnits="userSpaceOnUse" id="c1"><rect x="3800.8" y="-663.33" width="1615.1" height="1615.1" ry="7.58" fill="#020202"/></clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="c3"><rect x="3800.8" y="-663.33" width="1615.1" height="1615.1" ry="7.58" fill="#020202"/></clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="c4"><rect x="499.07" y="104.72" width="63.74" height="63.74" ry=".3" fill="#020202"/></clipPath>
+        <clipPath clipPathUnits="userSpaceOnUse" id="c5"><rect x="3800.8" y="-663.33" width="1615.1" height="1615.1" ry="7.58" fill="#020202"/></clipPath>
+      </defs>
+      <g transform="translate(-3826 662.8)">
+        <path transform="matrix(1.1145 0 0 1.1145 -434.84 76.453)" d="m4815.2 529.96c67.956-22.995 71.161-31.566 126.62-57.18 56.082-25.899 117.53-81.743 149.06-135.5 13.739-23.423 41.516-51.453 61.711-62.306 74.076-39.81 94.518-201.75 35.285-279.41l-27.218-35.73 95.413-19.102c35.699-7.1309 91.595-35.638 103.32-69.635 8.6021-34.959 33.613-121.79-118.47-136.02-40.465-9.1361-117.75-4.4991-171.52-11.085-102-12.493-26.159-21.148-63.146-76.872-80.962-121.98-204.36-204.59-339.73-227.4-38.732-6.5258-76.182-17.638-83.238-24.694-17.427-17.427-108.52-16.22-142.62 1.88-15.224 8.0804-55.852 20.21-90.266 26.971-219.54 43.127-350.31 198.91-376.45 448.46-6.1004 58.232-11.978 72.55-41.669 101.7-107.05 105.09-57.948 328.39 77.647 353.1 22.54 4.1066 55.506 22.87 80.863 46.024 23.541 21.497 62.226 50.183 85.96 63.74 55.456 31.678-27.098-13.325 45.778 27.601 101.64 57.08 471.95 106.31 592.68 65.458z" clip-path="url(#c5)" fill="#fff" stroke="#fff" stroke-linejoin="round" stroke-width="101.35"/>
+        <path transform="matrix(28.238 0 0 28.238 -10292 -3619.9)" d="m513.81 148.14c-0.93672-0.53508-2.4633-1.667-3.3924-2.5154-1.0007-0.91381-2.3013-1.654-3.1909-1.8161-5.3515-0.97495-7.2894-9.7879-3.0643-13.936 1.1718-1.1503 1.4035-1.7161 1.6443-4.0143 1.0318-9.8489 6.1931-15.997 14.858-17.699 1.3582-0.26681 2.9611-0.74604 3.5619-1.0649 1.3459-0.71436 4.941-0.76128 5.6288-0.0735 0.2785 0.2785 1.7571 0.7171 3.2857 0.97466 5.3426 0.90019 10.213 4.1598 13.408 8.9738 1.4598 2.1993 1.4598 2.1993 5.4855 2.6923 14.729 1.804 10.248 7.5222 1.4683 9.4599l-0.86074 0.18996 1.0754 1.4099c2.3378 3.065 1.5302 9.4564-1.3934 11.028-0.79702 0.42833-1.8928 1.5351-2.435 2.4595-1.2444 2.1215-3.5884 4.5235-5.8827 5.3483-10.627 3.8203-16.42 4.9749-30.196-1.4166zm22.906 1.3825c9.0915-1.9088 13.481-6.7092 13.548-14.815 0.0609-7.3979-0.32139-7.9645-4.3906-6.506-2.2702 0.8137-2.3887 1.0818-0.77366 1.7507 2.9543 1.2237 3.0759 10.189 0.15873 11.698-3.8932 2.0132-17.027 2.6526-23.302 1.1344-4.5126-1.0917-4.9614-1.628-5.1323-6.1328-0.22611-5.9609 0.47184-6.676 7.4863-7.6705 2.0694-0.2934 3.4848-0.63926 3.1452-0.76857-5.8358-2.2224-7.2506-2.3914-11.545-1.3788-5.2109 1.2288-5.3007 1.314-4.2798 4.066 0.6217 1.6759 0.80274 3.2249 0.80583 6.8947 8e-3 9.2088 10.996 14.517 24.279 11.728zm-27.482-9.1374c1.8543-2.8292 0.63394-9.6813-1.7661-9.9165-1.2554-0.12306-1.2554-0.12306-1.2174 4.939 0.0472 6.2859 1.0402 7.9425 2.9835 4.9776zm16.958-1.5466c2.9334-1.5169 1.9484-5.9831-1.3195-5.9831-4.262 0-4.4249 6.1331-0.17403 6.5528 0.18101 0.0179 0.85311-0.23848 1.4935-0.56966zm15.155-0.87683c1.6339-1.8286 0.83365-4.5576-1.5592-5.3171-3.2686-1.0374-5.3732 3.1167-2.8549 5.635 1.4681 1.4681 2.9111 1.3642 4.4141-0.31792zm6.3022-12.876c2.3909-1.1294 4.8437-2.178 5.4506-2.3303 3.3181-0.83278-6.5238-2.1148-12.831-1.6714-5.2339 0.3679-17.545 3.0973-16.859 3.7377 0.27353 0.25535 7.2352 1.5807 11.043 2.1024 6.0989 0.83554 8.1362 0.55173 13.196-1.8384zm-32.947-0.4358c3.053-0.66493 7.488-1.8696 9.8557-2.677 4.8231-1.6448 11.799-3.1109 14.803-3.1109 5.0174 0 5.2851-0.37278 2.4754-3.447-6.4835-7.094-21.53-7.5295-28.246-0.81751-2.465 2.4635-3.6714 4.9949-4.8278 10.13-0.31041 1.3783-0.7699 1.3843 5.9399-0.0771z" clip-path="url(#c4)" stroke-width=".41158"/>
+        <path transform="matrix(1.1145 0 0 1.1145 -434.84 76.453)" d="m4048.2-135.36c-6.8281-6.828 29.459-129.34 52.264-176.46 17.972-37.129 29.829-58.506 65.808-94.841 38.542-38.922 57.372-49.217 102.28-70.71 85.209-40.779 137.25-56.773 244.72-56.156 78.296 0.44848 97.334 7.5968 146.27 20.518 81.456 21.508 151.13 57.901 202.25 105.64 23.057 21.533 47.442 48.083 54.19 59.001 19.595 31.706 10.99 35.737-88.274 41.345-94.212 5.3232-212.07 27.094-320.06 59.124-187.26 55.539-243.56 70.917-326.29 89.133-115.11 25.346-128.8 27.752-133.15 23.401z" clip-path="url(#c3)" fill="#fe6b05" stroke="#000" stroke-width="11.252"/>
+        <path transform="matrix(1.1145 0 0 1.1145 -434.84 76.453)" d="m4746.7-97.12c-79.869-8.7643-320.57-51.098-328.37-58.396-15.848-14.839 284.26-77.04 426.28-89.489 95.937-8.4094 332.84 2.8046 367.29 20.775 9.6423 5.0293-33.137 10.162-57.655 19.747-15.299 5.9807-67.374 27.937-115.27 49.785-127.74 58.264-188.47 68.97-292.28 57.579z" clip-path="url(#c1)" fill="#fe6b05" stroke="#000" stroke-width="11.252"/>
+      </g>
+    </symbol>
+  </defs>
+
+  <!-- Main card background -->
+  <rect x="20" y="10" width="680" height="500" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1" filter="url(#shadow)"/>
+
+  <!-- ===== SIDEBAR ===== -->
+  <rect x="20" y="10" width="180" height="500" rx="12" fill="#1c1229"/>
+  <!-- Square off right corners of sidebar -->
+  <rect x="140" y="10" width="60" height="500" fill="#1c1229"/>
+
+  <!-- Workspace name -->
+  <text x="36" y="46" fill="#161b22" font-size="15" font-weight="700">BotMinter</text>
+  <text x="160" y="46" fill="rgba(255,255,255,0.5)" font-size="11">&#9660;</text>
+
+  <!-- Divider -->
+  <line x1="30" y1="60" x2="190" y2="60" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+
+  <!-- Channels heading -->
+  <text x="36" y="84" fill="rgba(255,255,255,0.55)" font-size="11" font-weight="600" letter-spacing="0.5">CHANNELS</text>
+
+  <!-- Channel: #general -->
+  <rect x="28" y="94" width="164" height="28" rx="5" fill="transparent"/>
+  <text x="42" y="113" fill="rgba(255,255,255,0.6)" font-size="13"># general</text>
+
+  <!-- Channel: #my-team (active) -->
+  <rect x="28" y="122" width="164" height="28" rx="5" fill="#1164A3"/>
+  <text x="42" y="141" fill="#161b22" font-size="13" font-weight="600"># my-team</text>
+  <!-- Unread badge -->
+  <rect x="158" y="129" width="22" height="16" rx="8" fill="#CD2553"/>
+  <text x="169" y="141" fill="#161b22" font-size="10" font-weight="700" text-anchor="middle">3</text>
+
+  <!-- Channel: #alerts -->
+  <rect x="28" y="150" width="164" height="28" rx="5" fill="transparent"/>
+  <text x="42" y="169" fill="rgba(255,255,255,0.6)" font-size="13"># alerts</text>
+
+  <!-- Divider -->
+  <line x1="30" y1="190" x2="190" y2="190" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+
+  <!-- Members heading -->
+  <text x="36" y="214" fill="rgba(255,255,255,0.55)" font-size="11" font-weight="600" letter-spacing="0.5">MEMBERS</text>
+
+  <!-- Member: dev (online) -->
+  <g transform="translate(36, 226)">
+    <circle cx="8" cy="8" r="5" fill="#4A9E6E"/>
+    <text x="20" y="12" fill="rgba(255,255,255,0.7)" font-size="12">dev</text>
+    <text x="50" y="12" fill="rgba(255,255,255,0.35)" font-size="10">running</text>
+  </g>
+
+  <!-- Member: qe (online) -->
+  <g transform="translate(36, 250)">
+    <circle cx="8" cy="8" r="5" fill="#4A9E6E"/>
+    <text x="20" y="12" fill="rgba(255,255,255,0.7)" font-size="12">qe</text>
+    <text x="42" y="12" fill="rgba(255,255,255,0.35)" font-size="10">running</text>
+  </g>
+
+  <!-- Member: arch (idle) -->
+  <g transform="translate(36, 274)">
+    <circle cx="8" cy="8" r="5" fill="transparent" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+    <text x="20" y="12" fill="rgba(255,255,255,0.45)" font-size="12">arch</text>
+    <text x="50" y="12" fill="rgba(255,255,255,0.25)" font-size="10">idle</text>
+  </g>
+
+  <!-- ===== MAIN CHAT AREA ===== -->
+
+  <!-- Header bar -->
+  <rect x="200" y="10" width="500" height="50" fill="#161b22"/>
+  <line x1="200" y1="60" x2="700" y2="60" stroke="#30363d" stroke-width="1"/>
+  <text x="220" y="40" fill="#e6edf3" font-size="15" font-weight="700"># my-team</text>
+  <text x="330" y="40" fill="#8b949e" font-size="12">Team coordination channel</text>
+
+  <!-- ===== MESSAGE 1: dev agent ===== -->
+  <g transform="translate(220, 78)">
+    <!-- Bot avatar -->
+    <rect x="0" y="0" width="34" height="34" rx="6" fill="#0b2e13"/>
+    <use href="#bm-logo" x="4" y="5" width="26" height="22"/>
+
+    <!-- Name and timestamp -->
+    <text x="44" y="13" fill="#58a6ff" font-size="13.5" font-weight="700">dev</text>
+    <!-- Role badge -->
+    <rect x="70" y="2" width="32" height="16" rx="3" fill="#0b2e13" stroke="#3fb950" stroke-width="0.7"/>
+    <text x="86" y="13" text-anchor="middle" fill="#3fb950" font-size="9" font-weight="600">DEV</text>
+    <text x="110" y="13" fill="#8b949e" font-size="11">10:32 AM</text>
+
+    <!-- Message text -->
+    <text x="44" y="32" fill="#e6edf3" font-size="13">Auth middleware implemented. 12 tests passing.</text>
+    <text x="44" y="50" fill="#e6edf3" font-size="13">PR <tspan fill="#58a6ff" font-weight="500">#43</tspan> ready for review.</text>
+
+    <!-- Reaction -->
+    <rect x="44" y="58" width="40" height="22" rx="11" fill="#1c2128" stroke="#30363d" stroke-width="0.8"/>
+    <text x="54" y="73" font-size="11">&#128077; 1</text>
+  </g>
+
+  <!-- ===== MESSAGE 2: Human ===== -->
+  <g transform="translate(220, 168)">
+    <!-- Human avatar -->
+    <rect x="0" y="0" width="34" height="34" rx="6" fill="#0c2d6b"/>
+    <text x="17" y="23" text-anchor="middle" fill="#58a6ff" font-size="16" font-weight="700">M</text>
+
+    <!-- Name and timestamp -->
+    <text x="44" y="13" fill="#e6edf3" font-size="13.5" font-weight="700">Marcus</text>
+    <rect x="98" y="2" width="48" height="16" rx="3" fill="#341a04" stroke="#d29922" stroke-width="0.7"/>
+    <text x="122" y="13" text-anchor="middle" fill="#d29922" font-size="9" font-weight="600">HUMAN</text>
+    <text x="154" y="13" fill="#8b949e" font-size="11">10:34 AM</text>
+
+    <!-- Message text -->
+    <text x="44" y="32" fill="#e6edf3" font-size="13">Looks good. Merge it.</text>
+  </g>
+
+  <!-- ===== MESSAGE 3: qe agent ===== -->
+  <g transform="translate(220, 238)">
+    <!-- Bot avatar -->
+    <rect x="0" y="0" width="34" height="34" rx="6" fill="#341a04"/>
+    <use href="#bm-logo" x="4" y="5" width="26" height="22"/>
+
+    <!-- Name and timestamp -->
+    <text x="44" y="13" fill="#58a6ff" font-size="13.5" font-weight="700">qe</text>
+    <!-- Role badge -->
+    <rect x="66" y="2" width="26" height="16" rx="3" fill="#341a04" stroke="#d29922" stroke-width="0.7"/>
+    <text x="79" y="13" text-anchor="middle" fill="#d29922" font-size="9" font-weight="600">QE</text>
+    <text x="100" y="13" fill="#8b949e" font-size="11">10:41 AM</text>
+
+    <!-- Message text -->
+    <text x="44" y="32" fill="#e6edf3" font-size="13">Found edge case in token refresh flow.</text>
+    <text x="44" y="50" fill="#e6edf3" font-size="13">Creating issue <tspan fill="#58a6ff" font-weight="500">#54</tspan> with reproduction steps.</text>
+  </g>
+
+  <!-- Divider with date -->
+  <line x1="220" y1="310" x2="380" y2="310" stroke="#30363d" stroke-width="1"/>
+  <rect x="385" y="301" width="100" height="18" rx="9" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="435" y="314" text-anchor="middle" fill="#8b949e" font-size="10" font-weight="500">Approval gate</text>
+  <line x1="490" y1="310" x2="680" y2="310" stroke="#30363d" stroke-width="1"/>
+
+  <!-- ===== MESSAGE 4: Approval request ===== -->
+  <g transform="translate(220, 330)">
+    <!-- Bot avatar -->
+    <rect x="0" y="0" width="34" height="34" rx="6" fill="#1e0c36"/>
+    <use href="#bm-logo" x="4" y="5" width="26" height="22"/>
+
+    <!-- Name and timestamp -->
+    <text x="44" y="13" fill="#58a6ff" font-size="13.5" font-weight="700">arch</text>
+    <!-- Role badge -->
+    <rect x="82" y="2" width="38" height="16" rx="3" fill="#1e0c36" stroke="#bc8cff" stroke-width="0.7"/>
+    <text x="101" y="13" text-anchor="middle" fill="#bc8cff" font-size="9" font-weight="600">ARCH</text>
+    <text x="128" y="13" fill="#8b949e" font-size="11">10:45 AM</text>
+
+    <!-- Message text -->
+    <text x="44" y="32" fill="#e6edf3" font-size="13">Design proposal for caching layer ready.</text>
+
+    <!-- Approval card -->
+    <rect x="44" y="42" width="410" height="80" rx="8" fill="#1c2128" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Card icon and title -->
+    <text x="60" y="64" font-size="14">&#128203;</text>
+    <text x="80" y="65" fill="#e6edf3" font-size="13" font-weight="600">Approval Required</text>
+    <text x="60" y="82" fill="#8b949e" font-size="12">Review the caching layer design before implementation begins.</text>
+
+    <!-- Approve button -->
+    <rect x="60" y="94" width="80" height="22" rx="4" fill="#238636" filter="url(#btnShadow)"/>
+    <text x="100" y="109" text-anchor="middle" fill="#161b22" font-size="11" font-weight="600">Approve</text>
+
+    <!-- Reject button -->
+    <rect x="150" y="94" width="80" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" filter="url(#btnShadow)"/>
+    <text x="190" y="109" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="500">Reject</text>
+
+    <!-- Comment button -->
+    <rect x="240" y="94" width="100" height="22" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1" filter="url(#btnShadow)"/>
+    <text x="290" y="109" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="500">Comment...</text>
+  </g>
+
+  <!-- ===== MESSAGE input area ===== -->
+  <g transform="translate(210, 470)">
+    <rect x="10" y="0" width="480" height="32" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="24" y="21" fill="#484f58" font-size="12.5">Message #my-team</text>
+    <!-- Send icon area -->
+    <rect x="454" y="4" width="28" height="24" rx="4" fill="#238636"/>
+    <text x="468" y="21" text-anchor="middle" fill="#161b22" font-size="13" font-weight="700">&#10148;</text>
+  </g>
+</svg>
