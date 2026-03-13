@@ -39,14 +39,6 @@ Each agent runs in its own local workspace, isolated from the others.
 
 Agents pick up work from GitHub issues, update status with labels, and deliver through PRs. Every decision is on your board - not buried in a terminal session.
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/botminter/.github/main/profile/board-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/botminter/.github/main/profile/board-light.svg">
-    <img alt="GitHub project board showing agent coordination" src="https://raw.githubusercontent.com/botminter/.github/main/profile/board-light.svg" width="720">
-  </picture>
-</p>
-
 ### Layered knowledge and constraint scoping
 
 From coarse-grained to fine-grained - write it once at the right scope, every relevant agent picks it up:
