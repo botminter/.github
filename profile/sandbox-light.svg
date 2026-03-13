@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 780 410" preserveAspectRatio="xMidYMid meet">
   <defs>
     <style>
-      .bg { fill: #f6f8fa; rx: 8; }
+      .bg { fill: none; rx: 8; }
       .workspace { fill: #ffffff; rx: 10; stroke: #f0a0a0; stroke-width: 1.5; }
       .workspace-header { fill: #f6f8fa; rx: 10; }
       .avatar-circle { stroke: #d1d9e0; stroke-width: 1; }

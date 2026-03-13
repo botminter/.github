@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 780 300" preserveAspectRatio="xMidYMid meet">
   <defs>
     <style>
-      .bg { fill: #0d1117; rx: 8; }
+      .bg { fill: none; rx: 8; }
       .stage { fill: #161b22; rx: 12; stroke: #30363d; stroke-width: 1; }
       .stage-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; fill: #e6edf3; }
       .stage-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 13px; fill: #8b949e; }
